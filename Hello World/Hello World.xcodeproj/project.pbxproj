@@ -14,6 +14,7 @@
 		160F69F71F4F85FB007B22BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160F69F51F4F85FB007B22BC /* LaunchScreen.storyboard */; };
 		160F6A021F4F85FB007B22BC /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F6A011F4F85FB007B22BC /* Hello_WorldTests.swift */; };
 		160F6A0D1F4F85FB007B22BC /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F6A0C1F4F85FB007B22BC /* Hello_WorldUITests.swift */; };
+		166B7AAD1F520CC500D6C360 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 166B7AAC1F520CC500D6C360 /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		160F6A081F4F85FB007B22BC /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160F6A0C1F4F85FB007B22BC /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		160F6A0E1F4F85FB007B22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B7AAC1F520CC500D6C360 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				160F69EC1F4F85FB007B22BC /* AppDelegate.swift */,
 				160F69EE1F4F85FB007B22BC /* ViewController.swift */,
 				160F69F01F4F85FB007B22BC /* Main.storyboard */,
+				166B7AAC1F520CC500D6C360 /* Base.lproj */,
 				160F69F31F4F85FB007B22BC /* Assets.xcassets */,
 				160F69F51F4F85FB007B22BC /* LaunchScreen.storyboard */,
 				160F69F81F4F85FB007B22BC /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				160F69F71F4F85FB007B22BC /* LaunchScreen.storyboard in Resources */,
 				160F69F41F4F85FB007B22BC /* Assets.xcassets in Resources */,
+				166B7AAD1F520CC500D6C360 /* Base.lproj in Resources */,
 				160F69F21F4F85FB007B22BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				160F6A131F4F85FB007B22BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		160F6A141F4F85FB007B22BC /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				160F6A161F4F85FB007B22BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		160F6A171F4F85FB007B22BC /* Build configuration list for PBXNativeTarget "Hello WorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				160F6A191F4F85FB007B22BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
